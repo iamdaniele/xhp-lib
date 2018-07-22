@@ -29,3 +29,9 @@ And in src/xhp-autoload.php:
 ```
 
 In the above example, tags like &lt;view:card:foo/&gt; will be autoloaded from `view/card/foo.php`
+=======
+  ':view' => __DIR__ . '/../view/',
+])->register();
+```
+
+In the above example, tags like &lt;view:card:foo/&gt; will be autoloaded from `view/card/foo.php` in the package root.

@@ -55,7 +55,6 @@ abstract class :xhp {
         $children .= :xhp::renderChild($c);
       }
       return $children;
-//       throw new XHPRenderArrayException('Can not render array!');
     } else {
       return htmlspecialchars((string)$child);
     }
